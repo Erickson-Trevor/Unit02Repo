@@ -23,6 +23,9 @@ def prompt_and_print():
     print(prompted_num_1, "*", prompted_num_2, "=", prompted_num_1*prompted_num_2)
     print(prompted_num_1, "/", prompted_num_2, "=", prompted_num_1/prompted_num_2)
 
-variables_practice()
-expressions_practice()
-prompt_and_print()
+def main():
+    variables_practice()
+    expressions_practice()
+    prompt_and_print()
+
+main()
